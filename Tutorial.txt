@@ -1,0 +1,13 @@
+/app: has all the routes  , components and application logic
+/app/lib has all the function using in my app contain resuable functions  , data fetching function 
+/app/ui contain the ui components , cards , tables 
+
+
+
+
+for creating new routes in next js 
+ in Next.js: create a new route segment using a folder, and add a page file inside it.
+
+
+ for highlighting the active link of the routes next js use a hook usepathname() {  // Highlight the active link based on the current pathname.}
+ this hook automatically highlight the link using the clsx (a small library that use for conditional base styling)
